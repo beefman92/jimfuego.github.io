@@ -1,39 +1,26 @@
-# Project 1
-Student homepage
+# Project 1 - Window to the World
+Student Homepage
+James Borzillieri
 
-## Getting Started
+## Objective
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+My Objective is to build the groundwork for a website to market my technical work and obtain greater visibility for the organizations I am affiliated with.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Clone the repository
 
 ```
-Give the example
+git clone https://github.com/jimfuego/jimfuego.github.io.git
 ```
 
-And repeat
+Open web browser
 
 ```
-until finished
+file -> open -> /filepath/repository/index.html
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
@@ -51,15 +38,11 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Bootstrap](https://getbootstrap.com/) - The web framework used
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling
+* [JavaScript](https://www.javascript.com/) - The language of the web!
 
 ## Contributing
 
