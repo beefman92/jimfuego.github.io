@@ -1,8 +1,11 @@
 # jimfuego.github.io
-Assignment1
-James Borzillieri
+#Assignment1
+##James Borzillieri
 [CS5610](http://johnguerra.co/classes/webDevelopment_spring_2019/)
 [jimfuego webpage](https://www.google.com)
+
+
+![screenshot](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 Project name:
 
