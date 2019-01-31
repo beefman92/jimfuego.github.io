@@ -7,22 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
   <title>Home - CS5610 Assignment 1</title>
 </head>
 
 <body>
   <!-- NOTE:  replace with nav bar -->
-  <nav class="navbar bg-light navbar-light navbar-expand">
+  <!-- <nav class="navbar bg-light navbar-light navbar-expand">
     <div class="container">
+      <div class="navbar-brand">Jimmy Borzillieri</div>
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="contact-me.html">Contact Me!</a>
+        <a class="nav-item nav-link" href="contact-me.html">Contact-Me</a>
+      </div>
+    </div>
+  </nav> -->
+  <!-- NOTE:  replace with nav bar -->
+  <nav class="navbar bg-light navbar-light navbar-expand">
+    <div class="container">
+      <div class="navbar-brand">Jimmy Borzillieri</div>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="contact-me.html">Contact-Me</a>
       </div>
     </div>
   </nav>
 
   <!-- NOTE: experiment header -->
+  <!-- <header class="jumbotron mt-4"> -->
   <img class="img-fluid" src="images/me_jumbo.JPG" alt="picture of me on a rock">
+  <!-- </header> -->
+
 
   <!-- NOTE: Bio -->
   <section class="container-fluid" id="bio">
@@ -34,34 +49,45 @@
       my hometown.
     </blockquote>
     <blockquote class="blockquote">
-      I was born in 1988 in Buffalo, NY. After graduating high school in 2006, I
-      enlisted and served four years with the U.S. Marine Corps. After being
-      discharged in 2011, I began undergraduate studies at D'Youville College in
-      my hometown.
+      I was first drawn into psychology and the behavioral sciences. While
+      working towards my bachelor's degree I became fascinated with how much
+      computers had influenced our understanding of the human brain and mind.
+      The social sciences also played their role
     </blockquote>
   </section>
 
   <!-- NOTE: Affiliations -->
   <div class="container" id="affiliations">
-    <!-- ROW 1 -->
-    <div class="row bg-light align-items-center" style="height: 50vh;">
-      <section class="col">
-        <img class="img-fluid" src="images/usmc.jpg" alt="american flag">
-        <h4>Laps for Limbs</h4>
-        <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+    <div class="card-group">
+      <section class="card mb-5">
+        <div class="card-body">
+          <img class="card-img img-fluid" src="images/usmc.jpg" style="width: 500px;" alt="american flag">
+          <h4 class="card-title">Laps for Limbs</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a
+              href="http://www.lapsforlimbs.org">Check out our webpage!</a></p>
+        </div>
       </section>
-      <section class="col">
-        <img class="img-fluid" src="images/blossom_cinci.jpg" alt="picture at STEM camp">
-        <h4>Blossom Scholastic</h4>
-        <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+      <section class="card mb-5">
+      <div class="card-body">
+          <img class="card-img img-fluid" src="images/blossom_cinci.jpg" style="width: 500px;" alt="picture at STEM camp">
+          <h4 class="card-title">Blossom Scholastic</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a
+              href="http://www.blossomscholastic.org">Check out our webpage!</a></p>
+      </div>
       </section>
-      <section class="col">
-        <img class="img-fluid" src="images/whiteboard.jpg" alt="jimmy drawing at whiteboard">
-        <h4>Northeastern University</h4>
-        <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings.</p>
+      <section class="card mb-5">
+      <div class="card-body">
+          <img class="card-img img-fluid" src="images/whiteboard.jpg" style="width: 500px;" alt="jimmy drawing at whiteboard">
+          <h4 class="card-title">Northeastern University</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
       </section>
     </div><!-- row -->
-  </div><!-- NOTE: row -->
+  </div><!-- NOTE: card-group -->
+
 
 
   <!-- Optional JavaScript -->
