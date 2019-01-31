@@ -1,5 +1,7 @@
 # Project 1 - Window to the World
+
 Student Homepage
+
 James Borzillieri
 
 ## Objective
