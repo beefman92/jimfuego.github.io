@@ -1,78 +1,89 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Home - CS5610 Assignment 1</title>
+</head>
 
-    <title>Home - CS5610 Assignment 1</title>
-  </head>
-  <body>
+<body>
+  <!-- NOTE:  replace with nav bar -->
+  <nav class="navbar bg-light navbar-light navbar-expand">
+    <div class="container">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="contact-me.html">Contact Me!</a>
+      </div>
+    </div>
+  </nav>
 
-    <!-- NOTE:  replace with nav bar -->
-    <h1>Hello, world!</h1>
+  <!-- NOTE: experiment header -->
+  <img class="img-fluid" src="images/me_jumbo.JPG" alt="picture of me on a rock">
 
-    <!-- NOTE: jumbotron main photo -->
-    <!-- <div class="jumbo">
-      <img class="img-fluid rounded" src="/images/path/" alt="/alt/">
-      <img class="img-fluid float-right" src="/images/path/" alt="/alt/">
-      <img class="img-fluid float-left" src="/images/path/" alt="/alt/">
-      <img class="img-fluid rounded-circle" src="/images/path/" alt="/alt/">
-      <img class="mx-auto" src="/images/path/" alt="/alt/">
-    </div> -->
+  <!-- NOTE: Bio -->
+  <section class="container-fluid" id="bio">
+    <h2>Bio</h2>
+    <blockquote class="blockquote">
+      I was born in 1988 in Buffalo, NY. After graduating high school in 2006, I
+      enlisted and served four years with the U.S. Marine Corps. After being
+      discharged in 2011, I began undergraduate studies at D'Youville College in
+      my hometown.
+    </blockquote>
+    <blockquote class="blockquote">
+      I was born in 1988 in Buffalo, NY. After graduating high school in 2006, I
+      enlisted and served four years with the U.S. Marine Corps. After being
+      discharged in 2011, I began undergraduate studies at D'Youville College in
+      my hometown.
+    </blockquote>
+  </section>
 
-
-    <!-- <header class="clearfix" style="height: 90vh; background: url(images/me_jumbo.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
-        <img src="" alt="cool logo">
-    </header> -->
-
-<!-- NOTE: experiment header -->
-    <img class="img-fluid" src="images/me_jumbo.JPG" alt="picture of me on a rock">
-
-<!-- NOTE: About me section -->
-<div class="About-Me">
-  <h2>About Me</h2>
-  <blockquote class="blockquote">
-    I was born in 1988 in Buffalo, NY. After graduating high school in 2006, I
-    enlisted and served four years with the U.S. Marine Corps. After being
-    discharged in 2011, I began undergraduate studies at D'Youville College in
-    my hometown.
-  </blockquote>
-  <blockquote class="blockquote">
-    I was born in 1988 in Buffalo, NY. After graduating high school in 2006, I
-    enlisted and served four years with the U.S. Marine Corps. After being
-    discharged in 2011, I began undergraduate studies at D'Youville College in
-    my hometown.
-  </blockquote>
-</div>
-
-<!-- NOTE: Pull one left and one right-->
-<div class="About-Me">
-  <h2>More Stuff</h2>
-  <blockquote class="blockquote">
-    I was born in 1988 in Buffalo, NY. After graduating high school in 2006, I
-    enlisted and served four years with the U.S. Marine Corps. After being
-    discharged in 2011, I began undergraduate studies at D'Youville College in
-    my hometown.
-  </blockquote>
-  <blockquote class="blockquote">
-    I was born in 1988 in Buffalo, NY. After graduating high school in 2006, I
-    enlisted and served four years with the U.S. Marine Corps. After being
-    discharged in 2011, I began undergraduate studies at D'Youville College in
-    my hometown.
-  </blockquote>
-</div>
+  <!-- NOTE: Affiliations -->
+  <div class="container" id="affiliations">
+    <!-- ROW 1 -->
+    <div class="row bg-light align-items-center" style="height: 50vh;">
+      <section class="col">
+        <img class="img-fluid" src="images/usmc.jpg" alt="american flag">
+        <h4>Laps for Limbs</h4>
+        <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+      </section>
+      <section class="col">
+        <img class="img-fluid" src="images/blossom_cinci.jpg" alt="picture at STEM camp">
+        <h4>Blossom Scholastic</h4>
+        <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+      </section>
+      <section class="col">
+        <img class="img-fluid" src="images/whiteboard.jpg" alt="jimmy drawing at whiteboard">
+        <h4>Northeastern University</h4>
+        <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings.</p>
+      </section>
+    </div><!-- row -->
+  </div><!-- NOTE: row -->
 
 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="path/to/vanilla.js"></script>
+</body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="path/to/vanilla.js"></script>
-  </body>
+<!-- NOTE: jumbotron main photo -->
+<!-- <div class="jumbo">
+    <img class="img-fluid rounded" src="/images/path/" alt="/alt/">
+    <img class="img-fluid float-right" src="/images/path/" alt="/alt/">
+    <img class="img-fluid float-left" src="/images/path/" alt="/alt/">
+    <img class="img-fluid rounded-circle" src="/images/path/" alt="/alt/">
+    <img class="mx-auto" src="/images/path/" alt="/alt/">
+  </div> -->
+
+
+<!-- <header class="clearfix img-fluid" style="height: 90vh; background: url(images/me_jumbo.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
+      <img src="" alt="cool logo">
+  </header> -->
+
 </html>
