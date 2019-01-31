@@ -28,7 +28,7 @@ Open web browser
 file -> open -> /filepath/repository/index.html
 ```
 
-Click [here](http://www.youtube.com) to see the demo!
+Click [here](https://youtu.be/Qa88M0hHxCg) to see the demo!
 
 ## Built With
 
