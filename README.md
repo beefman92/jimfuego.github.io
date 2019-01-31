@@ -28,6 +28,8 @@ Open web browser
 file -> open -> /filepath/repository/index.html
 ```
 
+Click [here](http://www.youtube.com) to see the demo!
+
 ## Built With
 
 * [Bootstrap](https://getbootstrap.com/) - The web framework used
