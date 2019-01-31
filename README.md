@@ -6,7 +6,11 @@ James Borzillieri
 
 My Objective is to build the groundwork for a website to market my technical work and obtain greater visibility for the organizations I am affiliated with.
 
-### Installing
+##Screenshot
+
+![](images/ss.png)
+
+## Installing
 
 Clone the repository
 
