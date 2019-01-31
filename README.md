@@ -42,7 +42,7 @@ Click [here](http://www.youtube.com) to see the demo!
 
 * **James Borzillieri** - *Initial work* - [Personal-site](https://jimfuego.github.io/)
 
-[Presentation-slides](https://docs.google.com/presentation/d/1ZyTacK5BnuQAMjCf0DxwXqBQLgWBwTIT78Hd1bNwhgA/edit?usp=sharing)
+* [Presentation-slides](https://docs.google.com/presentation/d/1ZyTacK5BnuQAMjCf0DxwXqBQLgWBwTIT78Hd1bNwhgA/edit?usp=sharing)
 
 ## License
 
