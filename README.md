@@ -6,7 +6,7 @@ James Borzillieri
 
 My Objective is to build the groundwork for a website to market my technical work and obtain greater visibility for the organizations I am affiliated with.
 
-##Screenshot
+## Screenshot
 
 ![](images/ss.png)
 
