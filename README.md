@@ -4,6 +4,8 @@ Student Homepage
 
 James Borzillieri
 
+[NEU CS5610](http://johnguerra.co/classes/webDevelopment_spring_2019/)
+
 ## Objective
 
 My Objective is to build the groundwork for a website to market my technical work and obtain greater visibility for the organizations I am affiliated with.
